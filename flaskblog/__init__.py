@@ -17,9 +17,8 @@ login_manager.login_message_category = 'info'
 app.config['MAIL_SERVER'] =  'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_DEFAULT_SENDER'] = ('Display Name', 'noreply@insertdomain.com')
-app.config['MAIL_USERNAME'] = 'cuongchu264@gmail.com'
-app.config['MAIL_PASSWORD'] = 'matngua238057'
+app.config['MAIL_USERNAME'] = 'flaskblogdacn@gmail.com'
+app.config['MAIL_PASSWORD'] = 'flaskblogdacn264'
 
 mail = Mail(app)
 
